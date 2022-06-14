@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |spec|
   spec.name = 'AudioKit'
-  spec.version = '5.3.0'
+  spec.version = '5.4.2'
   spec.authors = { 'Aurelius Prochazka' => 'audiokit@audiokit.io' }
   spec.license =  { :type => 'MIT' }
   spec.homepage = 'https://audiokit.io/'
