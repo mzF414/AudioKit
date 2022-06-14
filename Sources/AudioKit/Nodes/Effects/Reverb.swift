@@ -42,7 +42,7 @@ public class Reverb: Node {
     }
 
     /// Tells whether the node is processing (ie. started, playing, or active)
-    public var isStarted = true
+    public internal(set) var isStarted = true
 
     /// Initialize the reverb node
     ///
@@ -84,7 +84,7 @@ public extension AVAudioUnitReverbPreset {
         case .mediumRoom:
             return "Medium Room"
         case .largeRoom:
-            return "Larg Room"
+            return "Large Room"
         case .mediumHall:
             return "Medium Hall"
         case .largeHall:
